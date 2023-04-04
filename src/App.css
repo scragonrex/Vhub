@@ -297,3 +297,31 @@
   padding: 1rem;
   justify-content: center;
 }
+
+
+/* Component6 */
+.c6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  margin-top: 4rem;
+}
+.c6cont{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+.c6card{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15rem;
+    gap: 2rem;
+    padding: 2rem;
+    box-shadow: 0 0 13px #c1c1c1;
+    border-radius: 1rem;
+    text-align: center;
+}
+
