@@ -50,3 +50,139 @@
   background-color: #D9D9D9;
 }
 
+
+
+/* Component1 */
+.c1
+{
+  display: flex;
+  margin: 0 4rem;
+  flex-direction: column;
+}
+.s1{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.leftSection{
+  width: 50%;
+}
+.rightSection{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading1{
+  margin-top: 3rem;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.heading2{
+  color: gray;
+  line-height: 1.8rem;
+  padding-right: 8rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top:2rem
+}
+.c1btn{
+  margin-top: 3rem;
+}
+
+.s2{
+  width: 100%;
+  padding:3rem 0;
+}
+.s2 p{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.s2comp{
+  display: flex;
+  gap: 1rem;
+  height: 6rem;
+  margin: 0 5rem;
+  margin-top: 4rem;
+  justify-content: space-between;
+}
+
+
+/* Component2 */
+.c2{
+  display: flex;
+  flex-direction: row;
+  background-color: #F7F7F7C9;
+  padding: 4rem;
+}
+.c2s1{
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c2s1cont{
+ padding-right: 3rem;
+}
+.c2s2{
+  width: 30%;
+  display: flex;
+  gap:2rem;
+  flex-direction: column;
+}
+.c2s3{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.c2h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.c2h2{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: grey;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  padding-right: 6rem;
+}
+.c2card{
+  border-radius: 1rem;
+  background-color: white;
+  width: 15rem;
+  padding: 1rem;
+  height: 8rem;
+}
+.c2img{
+  display: flex;
+  justify-content: right;
+}
+
+/* Component3 */
+.c3{
+  display: flex;
+  gap: 2rem;
+  padding: 4rem;
+  flex-wrap: wrap;
+}
+
+.c3h1{
+  width: 19rem;
+  height: 17rem;
+  padding: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.c3card{
+  width: 17rem;
+  height: 19rem;
+  background: url(https://vhub.ai/wp-content/uploads/2023/03/Vector.png);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 8px 0px rgba(171, 166, 166, 0.703);
+}

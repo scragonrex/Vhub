@@ -1,5 +1,4 @@
 import React from 'react'
-import './Component2.css'
 const Component2 = () => {
     return (
         <div className='c2'>
