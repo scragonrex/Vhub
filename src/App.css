@@ -186,3 +186,52 @@
   padding: 2rem;
   box-shadow: 0 0 8px 0px rgba(171, 166, 166, 0.703);
 }
+
+
+/* Component4 */
+.c4{
+  background-color: #F7F7F7C9;
+  display: flex;
+  padding: 4rem;
+  flex-direction: column;
+}
+.c4h{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+.c4cont{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+}
+.c4tab{
+  width: 45%;
+}
+.c4value{
+  width: 70%;
+  margin:1rem;
+}
+.c4tab ul li{
+  list-style: none;
+  color:#404040;
+  cursor: pointer;
+  margin:0.5rem 0;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  margin-right: 5rem;
+}
+.c4tab ul li:hover{
+  color: white;
+  background-color: #007fff;
+}
+
+.active{
+  background-color: white;
+  color: black;
+  border: 1px solid #e5e5e5;
+}

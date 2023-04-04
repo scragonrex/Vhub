@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Navbar = () => {
+
   return (
     <div className="navbar">
       <div className='navbarCont'>
@@ -9,7 +10,7 @@ const Navbar = () => {
         </div>
         <div className="links">
           <ul>
-            <li><a href="#">Why vhub</a></li>
+            <li><a href="#c3">Why vhub</a></li>
             <li><a href="#">Products</a></li>
             <li><a href="#">Solution</a></li>
             <li><a href="#">Pricing</a></li>

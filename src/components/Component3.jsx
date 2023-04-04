@@ -2,7 +2,7 @@ import React from 'react'
 
 const Component3 = () => {
     return (
-        < div className='c3'>
+        < div className='c3' id='c3'>
                 <div className="c3h1">
                     <p>Why Influencer Marketing with vHub?</p>
                 </div>
