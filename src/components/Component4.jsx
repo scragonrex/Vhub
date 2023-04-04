@@ -9,7 +9,7 @@ const Component4 = () => {
         setOption(option);
         if(option === 1)
     setValue(
-        <p>On a search engine of 5Mn+ influencers with 20K+ onboarded on the platform, you can easily find the influencers to reach your potential customers.</p>
+        <p style={{}}>On a search engine of 5Mn+ influencers with 20K+ onboarded on the platform, you can easily find the influencers to reach your potential customers.</p>
     );
     
     if(option==2)
