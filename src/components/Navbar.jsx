@@ -6,15 +6,15 @@ const Navbar = () => {
     const element = document.getElementById('sidebar');
     const opa = document.getElementById('opacity'); 
     console.log(element);
-    element.style.width='0rem';
-    opa.style.width='0svw'
+    element.style.width='0vw';
+    opa.style.width='0vw'
   }
 
   const handleOpen = ()=>{
     const element = document.getElementById('sidebar');
     const opa = document.getElementById('opacity'); 
     opa.style.width='100vw'
-      element.style.width='50svw';
+      element.style.width='50vw';
   }
   return (
     <div className="navbar">
