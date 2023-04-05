@@ -16,7 +16,7 @@ const Component1 = () => {
       </div>
 
       <div className="rightSection">
-        <img src="https://vhub.ai/wp-content/uploads/2023/03/Mask-group-1.png" alt="image"  />
+        <img src="https://vhub.ai/wp-content/uploads/2023/03/Mask-group-1.png" alt="image2"  />
       </div>
     </div>
     <div className="s2">
