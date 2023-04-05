@@ -21,6 +21,7 @@ const Navbar = () => {
           <button className='btn btnLogin'>Login</button>
           <button className='btn'>Book a demo</button>
         </div>
+        {/* <i class="fa-solid fa-2x fa-bars"></i> */}
       </div>
     </div>
   )
